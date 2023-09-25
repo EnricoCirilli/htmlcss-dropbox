@@ -1,0 +1,12 @@
+/* I set the universal rules */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* /I set the universal rules */
+
+/* Common rules that I can apply multiple times in different place of my page */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
