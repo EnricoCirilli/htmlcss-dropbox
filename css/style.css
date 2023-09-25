@@ -145,9 +145,13 @@ h2{
     background-color: gold;
     width: 100%;
     min-height: 200px;
+    display: flex;
+    justify-content: center;
 }
 .card-section-4{
-    
+    width: 60%;
+    background-color: green;
+    min-height: 150px;
 }
 /* SECTION 4 */
 /* SECTION 5 */
