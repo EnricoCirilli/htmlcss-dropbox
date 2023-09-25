@@ -6,10 +6,12 @@
 }
 /* /I set the universal rules */
 
+/* COMMON */
 /* Common rules that I can apply multiple times in different place of my page */
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* NAV BAR */
 /* debug elements */
 .nav-bar{
     width: 100%;
@@ -27,6 +29,9 @@ body{
     width: 20%;
     background-color: orangered;
 }
+/* NAV BAR */
+
+/* HERO */
 .hero-section{
     background-color: lightpink;
     min-height: 200px;
@@ -48,3 +53,22 @@ body{
     background-color: blue;
     border: 1px solid red;
 }
+/* HERO */
+
+/* SECTION 1 */
+.section-1{
+    
+}
+/* SECTION 1 */
+/* SECTION 2 */
+/* SECTION 2 */
+/* SECTION 3 */
+/* SECTION 3 */
+/* SECTION 4 */
+/* SECTION 4 */
+/* SECTION 5 */
+/* SECTION 5 */
+/* SECTION 6 */
+/* SECTION 6 */
+/* FOOTER */
+/* FOOTER */
