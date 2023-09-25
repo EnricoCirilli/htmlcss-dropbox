@@ -189,20 +189,59 @@ h2{
 .section-6{
     width: 100%;
     background-color: yellow;
-    min-height: 150px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .card-1-section-6{
     width: 30%;
     border: 2px red solid;
-    min-height: 100px;
+    min-height: 150px;
+    background-color: blue;
 }
 .card-2-section-6{
     width: 30%;
     border: 2px red solid;
-    min-height: 100px;
+    min-height: 150px;
+    background-color: green;
 }
 /* SECTION 6 */
+
+/* SECTION 7 */
+.section-7{
+    width: 100%;
+    background-color: salmon;
+    display:block;
+    
+   
+}
+h4{
+    text-align: center;
+}
+.card-1-section-7{
+    width: 60%;
+    min-height: 100px;
+    background-color: blueviolet;
+    border: 1px black solid;
+    margin: auto;
+
+}
+.card-2-section-7{
+    width: 60%;
+    background-color: blueviolet;
+    min-height: 100px;
+    border: 1px black solid;
+    margin: auto;
+}
+.card-3-section-7{
+    width: 60%;
+    background-color: blueviolet;
+    min-height: 100px;
+    border: 1px black solid;
+    margin: auto;
+}
+
+/* /SECTION 7 */
+
 /* FOOTER */
 /* FOOTER */
