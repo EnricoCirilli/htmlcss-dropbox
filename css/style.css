@@ -64,6 +64,7 @@ body{
 }
 .title{
    text-align: center;
+   font-size: 2rem;
 }
 .hero-card{
     display: flex;
@@ -72,8 +73,12 @@ body{
 .hero-card-1{
     width: 35%;
     height: 200px;
-    background-color: blue;
     border: 1px solid red;
+}
+.anchor-hero{
+    width: ;
+    background-color: #0061ff;
+    color: white;
 }
 .hero-card-2{
     width: 35%;
