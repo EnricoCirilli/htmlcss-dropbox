@@ -14,21 +14,21 @@ body{
 .nav-bar{
     width: 100%;
     min-height: 50px;
-    background-color: aquamarine;
+    background-color:yellow;
     display: flex;
     justify-content: space-between;
 }
 .card-logo{
    width: 20%;
-   background-color: brown;
+   background-color: orangered;
 
 }
 .card-right{
     width: 20%;
-    background-color: brown;
+    background-color: orangered;
 }
 .hero-section{
-    background-color: rgb(142, 100, 100);
+    background-color: lightpink;
     min-height: 200px;
    
 }
