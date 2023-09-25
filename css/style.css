@@ -14,26 +14,51 @@ body{
 /* NAV BAR */
 /* debug elements */
 .nav-bar{
-    width: 100%;
-    min-height: 50px;
-    background-color:yellow;
+    min-height: 4rem;
     display: flex;
     justify-content: space-between;
 }
 .card-logo{
-   width: 20%;
-   background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+.list-1 ul{
+    display: flex;
+   list-style: none;
+}
+.list-1 a{
+    text-decoration: none;
+    margin: 15px;
+}
+.card-logo{
+   
+}
 
-}
+/* Menu on the right-hand of the menu*/
 .card-right{
-    width: 20%;
-    background-color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+.right-content ul{
+    display: flex;
+    list-style: none;
+}
+.right-content a{
+    text-decoration: none;
+    margin: 10px;
+}
+/* Menu on the right-hand of the menu*/
+
+
 /* NAV BAR */
 
 /* HERO */
 .hero-section{
-    background-color: lightpink;
+    background-color: #B4D0E7;
     min-height: 200px;
    
 }
