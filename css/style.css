@@ -186,6 +186,23 @@ h2{
 /* SECTION 5 */
 
 /* SECTION 6 */
+.section-6{
+    width: 100%;
+    background-color: yellow;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+}
+.card-1-section-6{
+    width: 30%;
+    border: 2px red solid;
+    min-height: 100px;
+}
+.card-2-section-6{
+    width: 30%;
+    border: 2px red solid;
+    min-height: 100px;
+}
 /* SECTION 6 */
 /* FOOTER */
 /* FOOTER */
