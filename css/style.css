@@ -63,11 +63,11 @@ body{
     width: 100%;
     min-height: 100px;
     background-color: red;
-    display: flex;justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 .orizzontal{
     width:60%;
-    min-height: 50px;
     background-color: rgb(84, 80, 80);
 }
 .three-col{
@@ -83,13 +83,61 @@ body{
     border: 1px solid red;
     background-color: rgb(225, 240, 9);
 }
-.bottom-oriz-cont{
-    
+.bottom-cont{
+    background-color: aquamarine;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.orizzontal-card{
+    width:30%;
+    min-height: 50px;
+    background-color: rgb(32, 135, 214);
+    border: 1px solid red;
 }
 /* SECTION 1 */
+
 /* SECTION 2 */
+.two-cards{
+    background-color: orangered;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.entra{
+    width:30%;
+    min-height: 100px;
+    background-color: rgb(188, 122, 187);
+    border: 1px solid red;
+}
 /* SECTION 2 */
+
 /* SECTION 3 */
+h2{
+    text-align: center;
+}
+.section-3{
+    background-color: bisque;
+    width: 60%;
+    min-height: 500px;
+    margin: 0 auto;
+    
+}
+.row-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+
+}
+.card-section-3{
+    
+    width: 60%;
+    min-height: 300px;
+    border: 1px solid black;
+}
 /* SECTION 3 */
 /* SECTION 4 */
 /* SECTION 4 */
