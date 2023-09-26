@@ -439,7 +439,7 @@ h2 {
 
 /* ESEGUI PIU OPERAZIONI */
 
-/* SECTION 4 */
+/*  MORE PEOPLE */
 .section-4 {
     background-color: gold;
     width: 100%;
@@ -454,9 +454,9 @@ h2 {
     min-height: 150px;
 }
 
-/* SECTION 4 */
+/*  MORE PEOPLE */
 
-/* SECTION 5 */
+/* DESIGNIT */
 .section-5 {
     display: flex;
 }
@@ -486,10 +486,21 @@ h2 {
 .subcard-section-5 {
     width: calc(100% / 2);
     min-height: 125px;
-    border: 1px red solid;
+    border: 4px  solid #9fce9a;
+    background-color: #71bb67;
 }
+.designit {
+   position: relative;
+   width: 50px;
+   left: 50%;
+   top: 60%;
+   transform: translate(-50%, -50%);
 
-/* SECTION 5 */
+   
+   
+   
+}
+/* DESIGNIT */
 
 /* SECTION 6 */
 .section-6 {
