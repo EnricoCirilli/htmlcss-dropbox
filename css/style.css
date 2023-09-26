@@ -119,14 +119,12 @@ img{
 .top-oriz-cont{
     width: 100%;
     min-height: 100px;
-    background-color: red;
     display: flex;
     align-items: center;
 }
 .orizzontal {
     width: 60%;
     max-width : 1100px;
-    background-color : rgb(84, 80, 80);
     padding: 20px;
 }
 /* radio button */
