@@ -1,109 +1,126 @@
 /* I set the universal rules */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* /I set the universal rules */
 
 /* COMMON */
 /* Common rules that I can apply multiple times in different place of my page */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
 }
-img{
+
+img {
     max-width: 100%;
 }
+
 /* NAV BAR */
 /* debug elements */
-.nav-bar{
+.nav-bar {
     width: 100%;
     min-height: 4rem;
     display: flex;
     justify-content: space-between;
 }
-.card-logo{
+
+.card-logo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 15px;
-}
-.list-1 ul{
-    display: flex;
-   list-style: none;
-}
-.list-1 a{
-    text-decoration: none;
-    margin: 15px;
-}
-.card-logo{
-   
 }
 
-/* Menu on the right-hand of the menu*/
-.card-right{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-.right-content ul{
+.list-1 ul {
     display: flex;
     list-style: none;
 }
-.right-content a{
+
+.list-1 a {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.card-logo {}
+
+/* Menu on the right-hand of the menu*/
+.card-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.right-content ul {
+    display: flex;
+    list-style: none;
+}
+
+.right-content a {
     text-decoration: none;
     margin: 10px;
 }
+
 /* Menu on the right-hand of the menu*/
 
 
 /* NAV BAR */
 
 /* HERO */
-.section{
+.section {
     background-color: #B4D0E7;
     max-height: 608px;
     padding-top: 40px;
 }
-.title-h1{
-   text-align: center;
-   font-size: 5rem;
-   width: 80%;
-   margin: 0 auto;
+
+.title-h1 {
+    text-align: center;
+    font-size: 5rem;
+    width: 80%;
+    margin: 0 auto;
 }
-.row{
+
+.row {
     width: 80%;
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
-.col-left{
+
+.col-left {
     width: 100%;
     font-size: 1.1rem;
     line-height: 1.56;
-    padding: 10px; 
-}
-.p-hero{
     padding: 10px;
 }
-.col.right{
+
+.p-hero {
+    padding: 10px;
+}
+
+.col.right {
     width: 100%;
 }
-.anchor-hero{
+
+.anchor-hero {
     background-color: #0061ff;
     color: white;
     text-decoration: none;
     padding: 10px;
 }
-.anchor-hero:hover{
+
+.anchor-hero:hover {
     opacity: 0.8;
 }
-.entity{
+
+.entity {
     font-size: 1.8rem;
 }
-.hero-card-2{
+
+.hero-card-2 {
     border: red 2px solid;
     position: relative;
 }
@@ -111,243 +128,282 @@ img{
 /* HERO */
 
 /* SECTION 1 */
-.section-1{
+.section-1 {
     width: 60%;
     margin: 0 auto;
     padding-top: 70px;
+    border: 2px red solid;
 }
-.top-oriz-cont{
+
+.top-oriz-cont {
     width: 100%;
-    min-height: 100px;
     display: flex;
     align-items: center;
 }
+
 .orizzontal {
     width: 80%;
-    max-width : 1500px;
+    max-width: 1500px;
     padding: 20px;
 }
-h2{
+
+h2 {
     font-size: 2rem;
 }
+
 /* radio button */
 
 /* The container */
 .container {
     display: inline-block;
     position: relative;
-    padding-left: 35px;
-    margin: 13px;
+    padding-left: 55px;
+    margin-bottom: 32px;
+    margin-top: 32px;
     cursor: pointer;
-    font-size: 1rem;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-  }
-  
-  /* Hide the browser's default radio button */
-  .container input {
-    position: absolute;
+    font-size: 17px;
+
+
+}
+
+/* Hide the browser's default radio button */
+.container input {
+    position: relative;
     opacity: 0;
     cursor: pointer;
-  }
-  
-  /* Create a custom radio button */
-  .checkmark {
+}
+
+/* Create a custom radio button */
+.checkmark {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
-    height: 20px;
-    width: 20px;
+    height: 5px;
+    width: 5px;
     background-color: #eee;
     border-radius: 50%;
-  }
-  
-  /* On mouse-over, add a grey background color */
-  .container:hover input ~ .checkmark {
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input~.checkmark {
     background-color: #ccc;
-  }
-  
-  /* When the radio button is checked, add a blue background */
-  .container input:checked ~ .checkmark {
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked~.checkmark {
     background-color: #2196F3;
-  }
-  
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .checkmark:after {
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the indicator (dot/circle) when checked */
-  .container input:checked ~ .checkmark:after {
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked~.checkmark:after {
     display: block;
-  }
-  
-  /* Style the indicator (dot/circle) */
-  .container .checkmark:after {
-       top: 7px;
-      left: 7px;
-      width: 6px;
-      height: 6px;
-      border-radius: 50%;
-      background: white;
-  }
+}
 
-  /* /radio button */
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+    top: 17px;
+    left: 17px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: white;
+   
+}
 
-.three-col{
+/* /radio button */
+
+.three-col {
     display: flex;
     justify-content: center;
     background-color: antiquewhite;
     min-height: 50px;
     width: 100%;
 }
-.three-col-1{
+
+.three-col-1 {
     width: calc(100% / 3);
-    min-height:500px;
+    min-height: 500px;
     border: 1px solid red;
-    background-color: rgb(225, 240, 9);
+    margin: 20px;
+
+}
+
+.singolo {
+    text-align: center;
+}
+
+.sub-title {
+    text-align: left;
     margin: 20px;
 }
-.bottom-cont{
+
+span {
+    padding: 20px;
+}
+
+.bottom-cont {
     background-color: aquamarine;
     width: 100%;
     min-height: 100px;
     display: flex;
     justify-content: center;
 }
-.orizzontal-card{
-    width:30%;
+
+.orizzontal-card {
+    width: 30%;
     min-height: 50px;
     background-color: rgb(32, 135, 214);
     border: 1px solid red;
 }
+
 /* SECTION 1 */
 
 /* SECTION 2 */
-.two-cards{
+.two-cards {
     background-color: orangered;
     width: 100%;
     min-height: 300px;
     display: flex;
     justify-content: center;
 }
-.entra{
-    width:30%;
+
+.entra {
+    width: 30%;
     min-height: 100px;
     background-color: rgb(188, 122, 187);
     border: 1px solid red;
 }
+
 /* SECTION 2 */
 
 /* SECTION 3 */
-h2{
+h2 {
     text-align: center;
 }
-.section-3{
+
+.section-3 {
     background-color: bisque;
     width: 60%;
     min-height: 500px;
     margin: 0 auto;
-    
+
 }
-.row-card{
+
+.row-card {
     width: 100%;
     display: flex;
     justify-content: center;
     background-color: aqua;
 
 }
-.card-section-3{
-    
+
+.card-section-3 {
+
     width: 60%;
     min-height: 300px;
     border: 1px solid black;
 }
+
 /* SECTION 3 */
 
 /* SECTION 4 */
-.section-4{
+.section-4 {
     background-color: gold;
     width: 100%;
     min-height: 200px;
     display: flex;
     justify-content: center;
 }
-.card-section-4{
+
+.card-section-4 {
     width: 60%;
     background-color: green;
     min-height: 150px;
 }
+
 /* SECTION 4 */
 
 /* SECTION 5 */
-.section-5{
+.section-5 {
     display: flex;
 }
-.card-1-section-5{
+
+.card-1-section-5 {
     width: 30%;
     min-height: 250px;
     background-color: peru;
     display: flex;
     flex-wrap: wrap;
 }
-.card-2-section-5{
+
+.card-2-section-5 {
     width: 40%;
     min-height: 200px;
     background-color: blanchedalmond;
 }
-.card-3-section-5{
-   width: 30%;
-   min-height: 250px;
-   background-color: yellowgreen;
-   display: flex;
-   flex-wrap: wrap;
+
+.card-3-section-5 {
+    width: 30%;
+    min-height: 250px;
+    background-color: yellowgreen;
+    display: flex;
+    flex-wrap: wrap;
 }
-.subcard-section-5{
+
+.subcard-section-5 {
     width: calc(100% / 2);
     min-height: 125px;
     border: 1px red solid;
 }
+
 /* SECTION 5 */
 
 /* SECTION 6 */
-.section-6{
+.section-6 {
     width: 100%;
     background-color: yellow;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.card-1-section-6{
+
+.card-1-section-6 {
     width: 30%;
     border: 2px red solid;
     min-height: 150px;
     background-color: blue;
 }
-.card-2-section-6{
+
+.card-2-section-6 {
     width: 30%;
     border: 2px red solid;
     min-height: 150px;
     background-color: green;
 }
+
 /* SECTION 6 */
 
 /* SECTION 7 */
-.section-7{
+.section-7 {
     width: 100%;
     background-color: salmon;
-    display:block;
-    
-   
+    display: block;
+
+
 }
-h4{
+
+h4 {
     text-align: center;
 }
-.card-1-section-7{
+
+.card-1-section-7 {
     width: 60%;
     min-height: 100px;
     background-color: blueviolet;
@@ -355,14 +411,16 @@ h4{
     margin: auto;
 
 }
-.card-2-section-7{
+
+.card-2-section-7 {
     width: 60%;
     background-color: blueviolet;
     min-height: 100px;
     border: 1px black solid;
     margin: auto;
 }
-.card-3-section-7{
+
+.card-3-section-7 {
     width: 60%;
     background-color: blueviolet;
     min-height: 100px;
@@ -373,41 +431,47 @@ h4{
 /* /SECTION 7 */
 
 /* FOOTER */
-.footer{
+.footer {
     width: 100%;
     background-color: black;
     min-height: 200px;
     display: flex;
     justify-content: center;
 }
-.box-footer-1{
+
+.box-footer-1 {
     width: 12%;
     min-height: 100px;
     background-color: white;
     border: red solid 2px;
 }
-.box-footer-2{
+
+.box-footer-2 {
     width: 12%;
     min-height: 100px;
     background-color: white;
     border: red solid 2px;
 }
-.box-footer-3{
+
+.box-footer-3 {
     width: 12%;
     min-height: 100px;
     background-color: white;
     border: red solid 2px;
 }
-.box-footer-4{
+
+.box-footer-4 {
     width: 12%;
     min-height: 100px;
     background-color: white;
     border: red solid 2px;
 }
-.box-footer-5{
+
+.box-footer-5 {
     width: 12%;
     min-height: 100px;
     background-color: white;
     border: red solid 2px;
 }
+
 /* FOOTER */
