@@ -409,14 +409,13 @@ hr{
 }
 /* ENTRA IN CONTATTO CON DROPBOX FINE*/
 
-/* SECTION 3 */
+/* ESEGUI PIU OPERAZIONI */
 h2 {
     text-align: center;
 
 }
 
 .section-3 {
-    background-color: bisque;
     width: 60%;
     min-height: 500px;
     margin: 0 auto;
@@ -427,7 +426,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    
 
 }
 
@@ -438,7 +437,7 @@ h2 {
     border: 1px solid black;
 }
 
-/* SECTION 3 */
+/* ESEGUI PIU OPERAZIONI */
 
 /* SECTION 4 */
 .section-4 {
