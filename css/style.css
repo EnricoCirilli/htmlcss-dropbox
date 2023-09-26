@@ -303,25 +303,74 @@ hr{
 
 /* /THREE COL PROFESSIONAL ADVANCED ENTERPRISE  */
 
+/* BUSINESS BOTTOM CONTAINER */
+.team{
+     width: 100%;
+     min-height: 50px;
+     display: flex;
+     justify-content: center;
+     
+     
+ }
+ .dream-team{
+    width:70%;
+    border: 3px red solid;
+ }
+ .team ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .team ul li{
+    list-style-type: none;
+ }
 
 .bottom-cont {
-    background-color: aquamarine;
     width: 100%;
     min-height: 100px;
+}
+
+
+.ufficio-vendite{
+    border: blue solid 3px;
+    width: 100%;
+    min-height: 200px;
     display: flex;
     justify-content: center;
 }
+.vendite-prezzi{
+   border: 3px red solid;
+   width:35%;
+   min-height: 100px;
+}
+.enter{
+    text-align: left;
+    padding: 20px;
+    font: 1rem;
 
-.orizzontal-card {
-    width: 30%;
-    min-height: 50px;
-    background-color: rgb(32, 135, 214);
+}
+.vendite-btn{
+    background-color: yellow;
+    width:35%;
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px;
+}
+.vendite-btn a{
+    background-color: #0061ff;
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+}
+.vendite-btn a:hover{
+    opacity: 0.5;
 }
 
 
 
 
-/* SECTION BUSINESS */
+/* /SECTION BUSINESS */
 
 /* SECTION 2 */
 .two-cards {
