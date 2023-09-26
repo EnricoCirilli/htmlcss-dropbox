@@ -254,11 +254,9 @@ hr{
 }
 .sub-prize {
     margin-bottom: 10px;
-    border: 1px solid green;
 }
 .mese{
     margin-bottom: 50px;
-    border: 3px solid red;
 }
 .list-plan ul{
     display: flex;
@@ -313,8 +311,8 @@ hr{
      
  }
  .dream-team{
-    width:70%;
-    border: 3px red solid;
+    width:60%;
+    border: 1px lightgray solid;
  }
  .team ul {
     display: flex;
@@ -332,26 +330,31 @@ hr{
 
 
 .ufficio-vendite{
-    border: blue solid 3px;
+    
     width: 100%;
     min-height: 200px;
     display: flex;
     justify-content: center;
+    padding-bottom: 100px;
 }
 .vendite-prezzi{
-   border: 3px red solid;
-   width:35%;
+   border: 1px solid lightgray;
+   width:30%;
    min-height: 100px;
 }
 .enter{
     text-align: left;
     padding: 20px;
-    font: 1rem;
-
+}
+.contatta{
+    padding: 20px;
+}
+.soluzioni{
+    padding: 20px;
 }
 .vendite-btn{
-    background-color: yellow;
-    width:35%;
+   border: 1px solid lightgray;
+    width:30%;
     min-height: 100px;
     display: flex;
     justify-content: flex-end;
@@ -361,16 +364,13 @@ hr{
     background-color: #0061ff;
     color: white;
     text-decoration: none;
-    padding: 15px;
+    padding: 10px;
 }
 .vendite-btn a:hover{
     opacity: 0.5;
 }
 
-
-
-
-/* /SECTION BUSINESS */
+/* SECTION BUSINESS FINE*/
 
 /* SECTION 2 */
 .two-cards {
