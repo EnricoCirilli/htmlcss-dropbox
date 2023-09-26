@@ -17,6 +17,7 @@ img{
 /* NAV BAR */
 /* debug elements */
 .nav-bar{
+    width: 100%;
     min-height: 4rem;
     display: flex;
     justify-content: space-between;
@@ -62,7 +63,7 @@ img{
 /* HERO */
 .section{
     background-color: #B4D0E7;
-    max-height: 700px;
+    max-height: 608px;
     padding-top: 40px;
 }
 .title-h1{
@@ -77,12 +78,10 @@ img{
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    border: red 2px solid;
 }
 .col-left{
     width: 100%;
     font-size: 1.1rem;
-    border: 3px green solid;
     line-height: 1.56;
     padding: 10px; 
 }
@@ -101,6 +100,9 @@ img{
 .anchor-hero:hover{
     opacity: 0.8;
 }
+.entity{
+    font-size: 1.8rem;
+}
 .hero-card-2{
     border: red 2px solid;
     position: relative;
@@ -110,20 +112,91 @@ img{
 
 /* SECTION 1 */
 .section-1{
-    padding-top: 100px;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 70px;
 }
 .top-oriz-cont{
     width: 100%;
     min-height: 100px;
     background-color: red;
     display: flex;
-    justify-content: center;
+    align-items: center;
 }
-.orizzontal{
-    width:60%;
-    max-width: 1100px;
-    background-color: rgb(84, 80, 80);
+.orizzontal {
+    width: 60%;
+    max-width : 1100px;
+    background-color : rgb(84, 80, 80);
+    padding: 20px;
 }
+/* radio button */
+
+/* The container */
+.container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin: 13px;
+    cursor: pointer;
+    font-size: 1rem;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+       top: 7px;
+      left: 7px;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: white;
+  }
+
+  /* /radio button */
+
 .three-col{
     display: flex;
     justify-content: center;
