@@ -127,7 +127,7 @@ img {
 
 /* HERO */
 
-/* SECTION 1 */
+/* SECTION BUSINESS */
 .section-1 {
     width: 60%;
     margin: 0 auto;
@@ -219,6 +219,8 @@ h2 {
 
 /* /radio button */
 
+
+/*  THREE COL PROFESSIONAL ADVANCED ENTERPRISE */
 .three-col {
     display: flex;
     justify-content: center;
@@ -238,15 +240,28 @@ h2 {
 .singolo {
     text-align: center;
 }
-
+.padding-left{
+    padding-left: 20px;
+}
 .sub-title {
     text-align: left;
-    margin: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 1.5rem;
 }
+.sub-prize {
+    margin-bottom: 10px;
+}
+.mese{
+    margin-bottom: 50px;
+}
+.utente {
+    margin-top: 30px;
+    
+    
+}
+/* /THREE COL PROFESSIONAL ADVANCED ENTERPRISE  */
 
-span {
-    padding: 20px;
-}
 
 .bottom-cont {
     background-color: aquamarine;
@@ -263,7 +278,10 @@ span {
     border: 1px solid red;
 }
 
-/* SECTION 1 */
+
+
+
+/* SECTION BUSINESS */
 
 /* SECTION 2 */
 .two-cards {
