@@ -372,11 +372,11 @@ hr{
 
 /* SECTION BUSINESS FINE*/
 
-/* SECTION 2 */
+/* ENTRA IN CONTATTO CON DROPBOX*/
+
 .two-cards {
-    background-color: orangered;
     width: 100%;
-    min-height: 300px;
+    min-height: 500px;
     display: flex;
     justify-content: center;
 }
@@ -384,15 +384,35 @@ hr{
 .entra {
     width: 30%;
     min-height: 100px;
-    background-color: rgb(188, 122, 187);
-    border: 1px solid red;
 }
-
-/* SECTION 2 */
+.entra-drop{
+    padding: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+.trova-drop{
+    padding: 20px;
+    font-size: 13px;
+}
+.btn-drop{
+    padding: 20px;
+}
+.btn-drop a{
+    font-size: 13px;
+    border: 1px solid grey;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+.btn-drop a:hover{
+    background-color: #2196F3;
+}
+/* ENTRA IN CONTATTO CON DROPBOX FINE*/
 
 /* SECTION 3 */
 h2 {
     text-align: center;
+
 }
 
 .section-3 {
