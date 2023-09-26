@@ -229,7 +229,8 @@ h2 {
     width: calc(100% / 3);
     min-height: 1000px;
     border: 1px solid lightgray;
-    margin: 20px;
+    margin: 30px;
+    padding: 10px;
 
 }
 hr{
@@ -239,6 +240,8 @@ hr{
 
 .singolo {
     text-align: center;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
 }
 .padding-left{
     padding-left: 20px;
@@ -251,9 +254,16 @@ hr{
 }
 .sub-prize {
     margin-bottom: 10px;
+    text-align: center;
 }
 .mese{
     margin-bottom: 50px;
+}
+.list-plan ul{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    padding: 5px;
 }
 .utente {
     margin-top: 30px; 
