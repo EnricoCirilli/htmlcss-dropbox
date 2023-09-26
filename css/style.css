@@ -43,8 +43,6 @@ img {
     margin: 15px;
 }
 
-.card-logo {}
-
 /* Menu on the right-hand of the menu*/
 .card-right {
     display: flex;
@@ -121,7 +119,6 @@ img {
 }
 
 .hero-card-2 {
-    border: red 2px solid;
     position: relative;
 }
 
@@ -132,7 +129,6 @@ img {
     width: 60%;
     margin: 0 auto;
     padding-top: 70px;
-    border: 2px red solid;
 }
 
 .top-oriz-cont {
@@ -225,19 +221,20 @@ h2 {
 .three-col {
     display: flex;
     justify-content: center;
-    background-color: antiquewhite;
     min-height: 50px;
     width: 100%;
-    border: 3px green solid;
-  
 }
 
 .three-col-1 {
     width: calc(100% / 3);
     min-height: 1000px;
-    border: 1px solid red;
+    border: 1px solid lightgray;
     margin: 20px;
 
+}
+hr{
+    color: lightgray;
+    font-size: 0.1;
 }
 
 .singolo {
@@ -268,9 +265,13 @@ h2 {
     padding: 10px;
     background-color: #2196F3;
 }
+
 .prova-gratis a{
     text-decoration: none;
     color: white;
+}
+.prova-gratis:hover{
+   opacity: 0.5;
 }
 .prova-gratis-1{
     font-size: 0.9rem;
@@ -302,7 +303,6 @@ h2 {
     width: 30%;
     min-height: 50px;
     background-color: rgb(32, 135, 214);
-    border: 1px solid red;
 }
 
 
