@@ -472,7 +472,7 @@ h2 {
 .card-2-section-5 {
     width: 40%;
     min-height: 200px;
-    background-color: blanchedalmond;
+    background-color: rgb(243, 242, 242);
 }
 
 .card-3-section-5 {
@@ -498,7 +498,8 @@ h2 {
 }
 /* setting central square designikit */
 .row-designikit{
-
+    border: 2px green solid;
+    padding: 20px;
 }
 .col-designkit{
     border: 2px solid red;
@@ -507,9 +508,9 @@ h2 {
     margin-bottom: 20px;
 }
 .small-line{
-    border: 1px solid green;
+    border: 1px solid lightgrey;
     width: 50px;
-    padding: 20px;
+    margin-top: 20px;
    
 
 }
