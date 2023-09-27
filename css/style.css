@@ -554,47 +554,40 @@ h2 {
 }
 /* PORTA DROPBOX */
 
-/* SECTION 7 */
+/* DOMANDE FREQUENTI*/
 .section-7 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     width: 100%;
-    background-color: salmon;
-    display: block;
 }
 
 .domande-frequenti {
     text-align: left;
-    border: 2px solid black;
     width: 60%;
     margin: auto;
-    font-size: 2rem;
+    font-size: 1.8rem;
+    text-align: left;
+    padding: 20px;
 }
 
 .card-1-section-7 {
     width: 60%;
     min-height: 100px;
-    background-color: blueviolet;
-    border: 1px black solid;
-    margin: auto;
-
-}
-
-.card-2-section-7 {
-    width: 60%;
-    background-color: blueviolet;
-    min-height: 100px;
-    border: 1px black solid;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    padding-top: 15px;
     margin: auto;
 }
-
-.card-3-section-7 {
-    width: 60%;
-    background-color: blueviolet;
-    min-height: 100px;
-    border: 1px black solid;
-    margin: auto;
+.card-1-section-7 ul{
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+}
+.card-1-section-7 ul li{
+   list-style-type: none;
 }
 
-/* /SECTION 7 */
+/* /DOMADE FREQUENTI */
 
 /* FOOTER */
 .footer {
