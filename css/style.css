@@ -30,7 +30,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 15px;
+    margin: 1.1rem;
 }
 
 .list-1 ul {
@@ -40,7 +40,7 @@ img {
 
 .list-1 a {
     text-decoration: none;
-    margin: 15px;
+    margin: 1.1rem;
 }
 
 /* Menu on the right-hand of the menu*/
@@ -58,7 +58,7 @@ img {
 
 .right-content a {
     text-decoration: none;
-    margin: 10px;
+    margin: 0.8rem;
 }
 
 /* Menu on the right-hand of the menu*/
@@ -69,13 +69,13 @@ img {
 /* HERO */
 .section {
     background-color: #B4D0E7;
-    max-height: 608px;
-    padding-top: 40px;
+    max-height: 46.7rem;
+    padding-top: 3.1rem;
 }
 
 .title-h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 65px;
     width: 80%;
     margin: 0 auto;
 }
@@ -90,7 +90,7 @@ img {
 
 .col-left {
     width: 100%;
-    font-size: 1.1rem;
+    font-size: 19px;
     line-height: 1.56;
     padding: 10px;
 }
@@ -115,14 +115,10 @@ img {
 }
 
 .entity {
-    font-size: 1.8rem;
+    font-size: 26px;
 }
 
-.hero-card-2 {
-    position: relative;
-}
-
-/* HERO */
+/* HERO END */
 
 /* SECTION BUSINESS */
 .section-1 {
@@ -233,10 +229,6 @@ h2 {
     padding: 10px;
 
 }
-hr{
-    color: lightgray;
-    font-size: 0.1;
-}
 
 .singolo {
     text-align: center;
@@ -264,9 +256,8 @@ hr{
     list-style-type: none;
     padding: 5px;
 }
-.utente {
-    margin-top: 30px; 
-    margin-bottom: 30px; 
+.fa {
+    padding-right: 0.5rem;
 }
 .prova-gratis{
     text-align: center;
