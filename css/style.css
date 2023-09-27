@@ -516,20 +516,25 @@ h2 {
 }
 /* DESIGNIT */
 
-/* SECTION 6 */
+/* PORTA DROPBOX */
 .section-6 {
     width: 100%;
-    background-color: yellow;
+    background-color: #B4D0E7;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 80px;
 }
 
 .card-1-section-6 {
     width: 30%;
     border: 2px red solid;
     min-height: 150px;
-    background-color: blue;
+    padding: 20px;
+}
+.porta-dropbox{
+    color: #691a37;
+    font-size: 1.7rem;
 }
 
 .card-2-section-6 {
@@ -539,19 +544,21 @@ h2 {
     background-color: green;
 }
 
-/* SECTION 6 */
+/* PORTA DROPBOX */
 
 /* SECTION 7 */
 .section-7 {
     width: 100%;
     background-color: salmon;
     display: block;
-
-
 }
 
-h4 {
-    text-align: center;
+.domande-frequenti {
+    text-align: left;
+    border: 2px solid black;
+    width: 60%;
+    margin: auto;
+    font-size: 2rem;
 }
 
 .card-1-section-7 {
