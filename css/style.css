@@ -594,18 +594,30 @@ h2 {
 
 /* FOOTER */
 .footer {
+    padding-top: 40px;
     width: 100%;
     background-color: black;
     min-height: 200px;
     display: flex;
     justify-content: center;
+    border: red solid 2px;
 }
-
+.box-footer-1 h4{
+    padding-bottom: 10px;
+}
 .box-footer-1 {
     width: 12%;
     min-height: 100px;
-    background-color: white;
+    color: white;
     border: red solid 2px;
+    font-size: 1rem;
+    padding: 1rem;
+    
+}
+.box-footer-1 ul li{
+    list-style-type: none;
+    font-size: 0.5rem;
+    padding-top: 5px;
 }
 
 .box-footer-2 {
