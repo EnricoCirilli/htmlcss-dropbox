@@ -494,11 +494,24 @@ h2 {
    width: 50px;
    left: 50%;
    top: 60%;
-   transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%); 
+}
+/* setting central square designikit */
+.row-designikit{
 
+}
+.col-designkit{
+    border: 2px solid red;
+    width: 200px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+.small-line{
+    border: 1px solid green;
+    width: 50px;
+    padding: 20px;
    
-   
-   
+
 }
 /* DESIGNIT */
 
