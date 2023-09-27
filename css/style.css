@@ -634,7 +634,6 @@ h2 {
     min-height: 200px;
     display: flex;
     justify-content: center;
-    border: red solid 2px;
 }
 .box-footer-1 h4{
     padding-bottom: 10px;
@@ -643,7 +642,6 @@ h2 {
     width: 12%;
     min-height: 100px;
     color: white;
-    border: red solid 2px;
     font-size: 1rem;
     padding: 1rem;
     
@@ -658,40 +656,34 @@ h2 {
     width: 12%;
     min-height: 100px;
     background-color: white;
-    border: red solid 2px;
 }
 
 .box-footer-3 {
     width: 12%;
     min-height: 100px;
     background-color: white;
-    border: red solid 2px;
 }
 
 .box-footer-4 {
     width: 12%;
     min-height: 100px;
     background-color: white;
-    border: red solid 2px;
 }
 
 .box-footer-5 {
     width: 12%;
     min-height: 100px;
     background-color: white;
-    border: red solid 2px;
 }
 
 .footer-bottom{
     display: flex;
     justify-content: center;
-    border: #2196F3 solid 4px;
    background-color: black;
     width: 100%;
     min-height: 100px;
 }
 .row-bottom-footer{
-    border: 2px red solid;
     width: 60%;
    
 }
