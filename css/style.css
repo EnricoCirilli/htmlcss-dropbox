@@ -104,6 +104,7 @@ img {
 }
 
 .anchor-hero {
+    display: inline-block;
     background-color: #0061ff;
     color: white;
     text-decoration: none;
@@ -262,15 +263,18 @@ h2 {
 .prova-gratis{
     text-align: center;
     font-size: 0.9rem;
-    padding: 10px;
-    background-color: #2196F3;
-    margin: 10px;
+    
     
 }
 
-.prova-gratis a{
+.prova-gratis a {
+    display: inline-block;
     text-decoration: none;
     color: white;
+    border: red 2px solid;
+    padding: 10px;
+    margin: 5px;
+    background-color: #2196F3;
 }
 .prova-gratis:hover{
    opacity: 0.5;
@@ -280,6 +284,11 @@ h2 {
     margin: 20px;
     padding-bottom: 20px;
 }
+.prova-gratis-1 a:hover{
+    display: inline-block;
+    border: red 2px solid;
+}
+
 .h-five{
     padding-bottom: 20px;
 }
@@ -353,6 +362,7 @@ h2 {
     padding: 40px;
 }
 .vendite-btn a{
+    display: inline-block;
     background-color: #0061ff;
     color: white;
     text-decoration: none;
@@ -390,6 +400,7 @@ h2 {
     padding: 20px;
 }
 .btn-drop a{
+    display: inline-block;
     font-size: 13px;
     border: 1px solid grey;
     padding: 10px;
@@ -450,6 +461,9 @@ h2 {
     min-height: 150px;
     padding: 2rem;
     margin-bottom: 3rem;
+}
+.card-section-4 a{
+    display: inline-block;
 }
 .users{
     font-size: 2rem;
